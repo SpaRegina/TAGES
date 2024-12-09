@@ -64,19 +64,5 @@ test_contact_form_submission_report.log
 
 ## Структура проекта
 
-.
-├── helpers/
-│   ├── utils.py
-│   ├── contest.py
-├── logs/
-│   ├── test_links_report.log
-│   ├── test_email_tel_report.log
-│   ├── test_contact_form_validation_report.log
-│   ├── test_contact_form_submission_report.log
-├── test_links.py
-├── test_email_tel.py
-├── test_contact_form_validation.py
-├── test_contact_form_submission.py
-├── requirements.txt
-├── README.md
+<pre> ## Структура проекта ``` . ├── helpers/ │ ├── utils.py │ ├── contest.py ├── logs/ │ ├── test_links_report.log │ ├── test_email_tel_report.log │ ├── test_contact_form_validation_report.log │ ├── test_contact_form_submission_report.log ├── test_links.py ├── test_email_tel.py ├── test_contact_form_validation.py ├── test_contact_form_submission.py ├── requirements.txt ├── README.md ``` ```
 
