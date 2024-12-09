@@ -1,0 +1,37 @@
+Запуск теста проверки кликабельности ссылок.
+Найдено ссылок на странице: 32
+Ссылка: Без текста, URL: https://tages.ru/, Статус: успешно
+Ссылка: Без текста, URL: https://tages.ru/, Статус: успешно (через JS)
+Ссылка: О компании, URL: https://tages.ru/about, Статус: успешно
+Ссылка: О компании, URL: https://tages.ru/about, Статус: успешно (через JS)
+Ссылка: Академия, URL: https://tages.ru/academy, Статус: успешно
+Ссылка: Академия, URL: https://tages.ru/academy, Статус: успешно (через JS)
+Ссылка: Мероприятия, URL: https://tages.ru/events, Статус: успешно
+Ссылка: Мероприятия, URL: https://tages.ru/events, Статус: успешно (через JS)
+Ссылка: Блог, URL: https://tages.ru/blog/, Статус: успешно
+Ссылка: Блог, URL: https://tages.ru/blog/, Статус: ошибка: name 'BASE_URL' is not defined
+Ссылка: Вакансии, URL: https://tages.ru/vacancies, Статус: успешно
+Ссылка: Вакансии, URL: https://tages.ru/vacancies, Статус: ошибка: name 'BASE_URL' is not defined
+Ссылка: Контакты, URL: https://tages.ru/contacts, Статус: успешно
+Ссылка: Контакты, URL: https://tages.ru/contacts, Статус: успешно (через JS)
+Ссылка: Без текста, URL: https://tages.ru/about, Статус: успешно (через JS)
+Ссылка: Без текста, URL: https://tages.ru/academy, Статус: успешно (через JS)
+Ссылка: Без текста, URL: https://tages.ru/events, Статус: успешно (через JS)
+Ссылка: Без текста, URL: https://tages.ru/blog/, Статус: успешно (через JS)
+Ссылка: Без текста, URL: https://tages.ru/vacancies, Статус: успешно (через JS)
+Ссылка: Без текста, URL: https://tages.ru/contacts, Статус: успешно (через JS)
+Ссылка: Реквизиты, URL: https://tages.ru/requisites, Статус: успешно
+Ссылка: Реквизиты, URL: https://tages.ru/requisites, Статус: успешно (через JS)
+Ссылка: Без текста, URL: https://t.me/tagesru, Статус: успешно
+Ссылка: Без текста, URL: https://t.me/tagesru, Статус: успешно (через JS)
+Ссылка: Реквизиты, URL: https://tages.ru/requisites, Статус: успешно
+Ссылка: Реквизиты, URL: https://tages.ru/requisites, Статус: успешно (через JS)
+Ссылка: Без текста, URL: https://t.me/tagesru, Статус: успешно
+Ссылка: Без текста, URL: https://t.me/tagesru, Статус: успешно (через JS)
+Ссылка: Без текста, URL: https://vk.com/tagesru, Статус: успешно
+Ссылка: Без текста, URL: https://vk.com/tagesru, Статус: успешно (через JS)
+Ссылка: Без текста, URL: https://www.youtube.com/channel/UCBK5-lZpfKeu_yjH30DpvSQ, Статус: успешно
+Ссылка: Без текста, URL: https://www.youtube.com/channel/UCBK5-lZpfKeu_yjH30DpvSQ, Статус: успешно (через JS)
+Ссылка: Политика конфиденциальности, URL: https://tages.ru/policy, Статус: успешно
+Ссылка: Политика конфиденциальности, URL: https://tages.ru/policy, Статус: успешно (через JS)
+Итог: успешно откликнулись 32 из 34, ошибок: 2
