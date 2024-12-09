@@ -63,6 +63,7 @@ test_contact_form_submission_report.log
 Установленный драйвер ChromeDriver (автоматически управляется webdriver-manager).
 
 ## Структура проекта
+
 .
 ├── helpers/
 │   ├── utils.py
