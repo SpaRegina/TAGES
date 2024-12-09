@@ -64,7 +64,7 @@ test_contact_form_submission_report.log
 
 ## Структура проекта
 
-.
+
 ├── helpers/
 │   ├── utils.py
 │   ├── contest.py
