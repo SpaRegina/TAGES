@@ -13,6 +13,12 @@ REPORT_FILE = "../logs/test_contact_form_submission_report.log"
 FIELD_LOCATORS = get_field_locators()
 SUBMIT_BUTTON_LOCATOR = get_submit_button_locator()
 
+def format_input_value(input_value):
+    """Форматировать значение для отчёта."""
+    if not input_value.strip():
+        return "Ввод только пробелов" if input_value.isspace() else "Пустое поле"
+    return input_value
+
 @pytest.mark.parametrize("name, phone, company, email, comment", [
     ("User", "9999999999", "Test Company", "test@mail.com", "Тестовый комментарий"),
     ("", "9999999999", "Test Company", "test@mail.com", "Тестовый комментарий"),  # Пустое имя
@@ -34,11 +40,11 @@ def test_contact_form_submission(driver, name, phone, company, email, comment):
                 REPORT_FILE,
                 f"Дата и время: {datetime.now()}\n"
                 f"Статус: {required_fields_status}\n"
-                f"Имя: {name}\n"
-                f"Телефон: {phone}\n"
-                f"Компания: {company}\n"
-                f"Почта: {email}\n"
-                f"Комментарий: {comment}\n"
+                f"Имя: {format_input_value(name)}\n"
+                f"Телефон: {format_input_value(phone)}\n"
+                f"Компания: {format_input_value(company)}\n"
+                f"Почта: {format_input_value(email)}\n"
+                f"Комментарий: {format_input_value(comment)}\n"
                 + "-" * 50
             )
             return
@@ -61,11 +67,11 @@ def test_contact_form_submission(driver, name, phone, company, email, comment):
             REPORT_FILE,
             f"Дата и время: {datetime.now()}\n"
             f"Статус: Отправлено\n"
-            f"Имя: {name}\n"
-            f"Телефон: {phone}\n"
-            f"Компания: {company}\n"
-            f"Почта: {email}\n"
-            f"Комментарий: {comment}\n"
+            f"Имя: {format_input_value(name)}\n"
+            f"Телефон: {format_input_value(phone)}\n"
+            f"Компания: {format_input_value(company)}\n"
+            f"Почта: {format_input_value(email)}\n"
+            f"Комментарий: {format_input_value(comment)}\n"
             + "-" * 50
         )
 
@@ -75,11 +81,11 @@ def test_contact_form_submission(driver, name, phone, company, email, comment):
             REPORT_FILE,
             f"Дата и время: {datetime.now()}\n"
             f"Статус: Ошибка при отправке\n"
-            f"Имя: {name}\n"
-            f"Телефон: {phone}\n"
-            f"Компания: {company}\n"
-            f"Почта: {email}\n"
-            f"Комментарий: {comment}\n"
+            f"Имя: {format_input_value(name)}\n"
+            f"Телефон: {format_input_value(phone)}\n"
+            f"Компания: {format_input_value(company)}\n"
+            f"Почта: {format_input_value(email)}\n"
+            f"Комментарий: {format_input_value(comment)}\n"
             f"Ошибка: {e}\n"
             + "-" * 50
         )

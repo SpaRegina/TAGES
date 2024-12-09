@@ -76,7 +76,7 @@ def test_field_validation(driver, field_name, input_value):
         status = "ТЕСТ НЕУСПЕШЕН"
 
     # Форматировать значение для отчёта
-    input_value_display = "пустое" if not input_value.strip() else input_value
+    input_value_display = "Пустое поле" if not input_value.strip() else input_value
     if input_value.isspace():
         input_value_display = "Ввод только пробелов"
 
