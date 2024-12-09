@@ -64,7 +64,8 @@ test_contact_form_submission_report.log
 
 ## Структура проекта
 
-``` . ├── helpers/
+```  
+      ├── helpers/
       │ ├── utils.py
       │ ├── contest.py
       ├── logs/
@@ -79,5 +80,4 @@ test_contact_form_submission_report.log
       ├── requirements.txt
       ├── README.md
 
- ``` ```
 
