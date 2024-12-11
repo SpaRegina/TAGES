@@ -44,20 +44,23 @@ pytest test_contact_form_submission.py
 ```
 
 ## Что проверяет каждый файл:
+```
 test_links.py — проверяет кликабельность всех ссылок на странице.
 test_email_tel.py — тестирует корректность работы ссылок с протоколами mailto и tel.
 test_contact_form_validation.py — выполняет тесты валидации формы обратной связи, используя различные входные данные.
 test_contact_form_submission.py — проверяет возможность успешной отправки формы с различными наборами данных.
 
+```
 ## Логи
 ### Результаты тестов записываются в лог-файлы в папке logs/:
 
+```
 test_links_report.log
 test_email_tel_report.log
 test_contact_form_validation_report.log
 test_contact_form_submission_report.log
 
-
+```
 ## Требования
 Установленный браузер Google Chrome последней версии.
 Установленный драйвер ChromeDriver (автоматически управляется webdriver-manager).
