@@ -37,10 +37,7 @@
 
 Для запуска тестов выполните команду:
 ```bash
-pytest test_links.py
-pytest test_email_tel.py
-pytest test_contact_form_validation.py
-pytest test_contact_form_submission.py
+pytest tests/
 ```
 
 ## Что проверяет каждый файл:
