@@ -86,6 +86,3 @@ project/
 ├── README.md
 ├── report.html
 ├── webdriver-manager.py
-
-
-
